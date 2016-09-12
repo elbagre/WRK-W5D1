@@ -53,4 +53,5 @@ group :test do
   gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
   # gem 'guard-rspec'
   gem 'launchy'
+  gem 'annotate'
 end

@@ -39,8 +39,6 @@ feature "logging in" do
   scenario "shows username on the homepage after login" do
     expect(page).to have_content("#{buddy.username}")
   end
-
-
 end
 
 feature "logging out" do
